@@ -32,7 +32,7 @@ body{
     min-height: 41vh;
 }
 
-.pimg1,.pimg2,.pimg3{
+.pimg{
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -98,9 +98,12 @@ a:hover,a:focus{
     color: #ddd;
 }
 
-@media (max-width: 600px){
+@media (max-width: 500px){
     .pimg1,.pimg2,.pimg3{
         background-attachment: scroll;
+    }
+    .border{
+        font-size: 1.1rem;
     }
     .section p{
         font-size: 1.05em;
